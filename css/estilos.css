@@ -274,4 +274,26 @@ footer .redes-sociales .contenedor .instagram:hover{
     background: #e53d55;
 }
 
+@media screen and (max-width: 800px) {
+    header .menu {
+        text-align: center; }
 
+    .main .trabajos .contenedor-trabajos .trabajo {
+        width: 46%; }
+}
+
+@media screen and (max-width: 700px) {
+    header .contenedor-texto .texto .nombre {
+        font-size: 35px;
+    }
+    header .contenedor-texto .texto .profesion {
+        font-size: 18px;
+    }
+    footer .redes-sociales .contenedor-trabajos .trabajo {
+        flex-direction: column-reverse;
+    }
+    footer .redes-sociales .contenedor-trabajos .trabajo {
+        padding: 20px;
+            }
+
+}
